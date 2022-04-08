@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,6BAA6B,CAAC;EAC1B,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,aAAa;EAC9B,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "subscribe-form__accept-label.scss"
+    ],
+    "names": [],
+    "file": "subscribe-form__accept-label.css"
+}

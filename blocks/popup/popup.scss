@@ -1,0 +1,57 @@
+@import "../../variables";
+.popup {
+    width: 100%;
+    padding-top: 116px;
+    padding-bottom: 92px;
+    background-color: $dark;
+    position: relative;
+    max-width: 480px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: left 1.3s linear;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 313px;
+        padding-bottom: 265px;
+        left: -480px;
+    }
+
+    &-visible{
+        left: 0;
+    }
+    
+    &__links {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: $textSize;
+        line-height: $textLine;
+        text-transform: uppercase;
+        min-height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        @media screen and (min-width: 768px) {
+            min-height: 232px;
+        }
+    }
+
+    &__link {
+        color: $light;
+        text-decoration: none;
+    }
+
+    &-shield {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 3;
+    }
+}

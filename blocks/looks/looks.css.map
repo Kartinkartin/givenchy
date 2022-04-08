@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,CAAC;EACT,YAAY,ECHL,IAAI;EDIX,aAAa,ECJN,IAAI;EDKX,WAAW,EAAE,IAAW;EACxB,cAAc,EAAE,IAAW;CAC9B",
+    "sources": [
+        "looks.scss",
+        "../../_variables.scss"
+    ],
+    "names": [],
+    "file": "looks.css"
+}

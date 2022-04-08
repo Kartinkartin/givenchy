@@ -1,0 +1,10 @@
+@import "../../../variables";
+.subscribe-form__pseudo-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: $checkbox;
+    height: $checkbox;
+    background-image: url(../images/Rectangle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}

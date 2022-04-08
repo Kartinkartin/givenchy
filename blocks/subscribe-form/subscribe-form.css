@@ -1,0 +1,15 @@
+.subscribe-form {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 700px;
+  }
+}
+/*# sourceMappingURL=subscribe-form.css.map */

@@ -1,0 +1,32 @@
+.footer {
+  background-color: #0A0A0A;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-left: 140px;
+    padding-right: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

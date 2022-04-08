@@ -1,0 +1,14 @@
+@import "../../variables";
+.menu {
+    margin: 0;
+    padding-top: $menuSpace;
+    padding-bottom: $menuSpace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        padding-top: $menuSpace*1.25;
+        padding-bottom: $menuSpace*1.25;
+    }
+}

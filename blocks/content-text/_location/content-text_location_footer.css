@@ -1,0 +1,15 @@
+.content-text_location_footer {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-text_location_footer {
+    max-width: 700px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+}
+/*# sourceMappingURL=content-text_location_footer.css.map */

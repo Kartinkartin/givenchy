@@ -1,0 +1,16 @@
+.menu__text {
+  margin: 0;
+  padding-left: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .menu__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+/*# sourceMappingURL=menu__text.css.map */

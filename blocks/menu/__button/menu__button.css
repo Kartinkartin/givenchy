@@ -1,0 +1,22 @@
+.menu__button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  background-color: #E7E7E2;
+  background-image: url(../images/menu-mobile.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .menu__button {
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+  }
+}
+/*# sourceMappingURL=menu__button.css.map */

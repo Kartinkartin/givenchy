@@ -1,0 +1,21 @@
+@import "../../../variables";
+.subscribe-form__email-input {
+    width: $maxWidth;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0.5px solid $light;
+    min-height: 44px;
+    background-color: $dark;
+    color: $grey;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        width: calc(100vw - 422px);
+        max-width: 592px;
+        min-height: 48px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 592px;
+    }
+}

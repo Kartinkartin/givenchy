@@ -1,0 +1,13 @@
+@import "../../../variables";
+.subscribe-form__accept-text {
+    color: $light;
+    width: calc(100% - 32px);
+    font-weight: 400;
+    font-size: $actionSize;
+    line-height: $actionLine;
+
+    @media screen and (min-width: 768px) {
+        font-size: $actionSize+2px;
+        line-height: $actionLine+4px;
+    }
+}

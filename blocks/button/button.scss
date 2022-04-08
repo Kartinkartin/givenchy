@@ -1,0 +1,54 @@
+@import "../../variables";
+@import "../../mixins";
+
+.button {
+    min-height: 44px;
+    width: $maxWidth;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: $fontbold;
+    font-size: $actionSize;
+    line-height: $actionLine;
+    text-transform: uppercase;
+    transition: background-color 1s linear,
+                color 1s linear;
+
+    @media screen and (min-width: 768px) {
+        min-height: 48px;
+        width: 350px;
+        font-size: $actionSize+2px;
+        line-height: $actionLine+4px;
+    }
+
+    &_location_header {
+        background-color: $dark;
+        color: $light;
+        max-width: 313px;
+        align-self: end;
+        
+        &:hover {
+            background-color: $light;
+            color: $dark;
+        }
+        @media screen and (min-width: 768px){
+            max-width: 350px;
+        }
+    }
+
+    &_location_footer {
+        background-color: $light;
+        color: $dark;
+        border: solid 0.5px $light;
+        box-sizing: border-box;
+        &:hover {
+            background-color: $dark;
+            color: $light;
+        }
+        @media screen and (min-width: 768px) {
+            width: 108px;
+        }
+        
+    }
+}

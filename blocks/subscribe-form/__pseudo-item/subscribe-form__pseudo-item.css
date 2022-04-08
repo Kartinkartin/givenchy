@@ -1,0 +1,10 @@
+.subscribe-form__pseudo-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/Rectangle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=subscribe-form__pseudo-item.css.map */

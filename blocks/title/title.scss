@@ -1,0 +1,25 @@
+@import "../../variables";
+.title {
+    margin: 0;
+    font-weight: $fontbold;
+    font-size: $titltSize;
+    line-height: $titleLine;
+    text-transform: uppercase;
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+        font-size: $titltSize+8px;
+        line-height: $titleLine+8px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: $titltSize+24px;
+        line-height: $titleLine+32px;
+    }
+
+    &__line {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,14 @@
+@import "../../../variables";
+.menu__text {
+    margin: 0;
+    padding-left: $menuSpace;
+    font-weight: $fontbold;
+    font-size: $actionSize;
+    line-height: $actionLine;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+        font-size: $actionSize+2px;
+        line-height: $actionLine+4px;
+    }
+}
