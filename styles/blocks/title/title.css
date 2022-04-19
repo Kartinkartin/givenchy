@@ -1,0 +1,55 @@
+.title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 48px;
+    line-height: 64px;
+  }
+}
+
+.title_location_header {
+  padding-top: 55px;
+  padding-bottom: 32px;
+  max-width: 485px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+@media screen and (min-width: 768px) {
+  .title_location_header {
+    padding-top: 135px;
+    padding-right: 35px;
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title_location_header {
+    padding-top: 222px;
+    max-width: 680px;
+    padding-right: 0px;
+  }
+}
+
+.title__line {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=title.css.map */

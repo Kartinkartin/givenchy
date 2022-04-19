@@ -1,0 +1,38 @@
+.header {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 79px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background-color: #E7E7E2;
+  background-image: url(../images/image1.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    min-height: 646px;
+    background-position: left top;
+    background-size: auto 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    min-height: 900px;
+    padding-right: 40px;
+    background-position: left 45px top;
+  }
+}
+/*# sourceMappingURL=header.css.map */

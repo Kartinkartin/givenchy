@@ -1,0 +1,101 @@
+@import "../../variables";
+.subscribe-form {
+    width: $maxWidth;
+        
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 700px;
+    }
+
+    &__element {
+        padding: 0;
+        margin: 0;
+        width: $maxWidth;
+        min-height: 44px;
+        box-sizing: border-box;
+        border: none;
+    
+        @media screen and (min-width: 768px) {
+            flex-basis: content;
+        }
+    }
+
+    &__email-input {
+        width: $maxWidth;
+        box-sizing: border-box;
+        padding: 0;
+        border: 0.5px solid $light;
+        min-height: 44px;
+        background-color: $dark;
+        color: $grey;
+        text-align: center;
+    
+        @media screen and (min-width: 768px) {
+            width: calc(100vw - 405px);
+            max-width: 592px;
+            min-height: 48px;
+        }
+    
+        @media screen and (min-width: 1440px) {
+            width: 592px;
+        }
+    }
+
+    &__accept {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: $minSpace;
+        margin: 0;
+        box-sizing: border-box;
+        width: $maxWidth;
+        border: none;
+    }
+
+    &__accept-label {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__accept-text {
+        margin: 0;
+        display: flex;
+        color: $light;
+        width: calc(100% - 32px);
+        font-weight: 400;
+        font-size: $actionSize;
+        line-height: $actionLine;
+    
+        &::before {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: $checkbox;
+            height: $checkbox;
+            background-image: url(../images/Rectangle.svg);
+            background-position: top left;
+            background-repeat: no-repeat;
+            padding-right: 26px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            font-size: $actionSize+2px;
+            line-height: $actionLine+4px;
+        }
+    }
+    
+    &__accept-checkbox {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+    }
+    
+    &__accept-checkbox:checked + &__accept-text:before {
+        background-image: url(../images/icon_check.svg);
+    }
+}

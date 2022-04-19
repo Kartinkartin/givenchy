@@ -1,0 +1,21 @@
+.looks {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .looks {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .looks {
+    padding-bottom: 80px;
+  }
+}
+/*# sourceMappingURL=looks.css.map */

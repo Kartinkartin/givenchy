@@ -1,0 +1,16 @@
+@import "../../variables";
+.looks {
+    margin: 0;
+    padding-left: $minSpace;
+    padding-right: $minSpace;
+    padding-top: $minSpace*2;
+    padding-bottom: $minSpace*2;
+
+    @media screen and (min-width: 768px){
+        padding-top: $minSpace*4;
+        padding-bottom: $minSpace*3;
+    }
+    @media screen and (min-width: 1440px){
+        padding-bottom: $minSpace*4;
+    }
+}

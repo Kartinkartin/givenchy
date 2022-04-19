@@ -1,0 +1,45 @@
+@import "../../variables";
+.title {
+    margin: 0;
+    font-weight: $fontbold;
+    font-size: $titltSize;
+    line-height: $titleLine;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    position: relative;
+
+    @media screen and (min-width: 768px) {
+        font-size: $titltSize+8px;
+        line-height: $titleLine+8px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        font-size: $titltSize+24px;
+        line-height: $titleLine+32px;
+    }
+
+    &_location_header {
+        padding-top: 55px;
+        padding-bottom: 32px;
+        max-width: 485px;
+        align-self: end;
+    
+        @media screen and (min-width: 768px) {
+            padding-top: 135px;
+            padding-right: 35px;
+            max-width: 450px
+        }
+    
+        @media screen and (min-width: 1440px) {
+            padding-top: 222px;
+            max-width: 680px;
+            padding-right: 0px;
+        }
+    }
+
+    &__line {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
