@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,GAAG;CAUlB;;AARG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EANvC,AAAA,sBAAsB,CAAC;IAOf,WAAW,EAAE,KAAK;GAOzB;;;AAJG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAVxC,AAAA,sBAAsB,CAAC;IAWf,WAAW,EAAE,KAAK;IAClB,SAAS,EAAE,KAAK;GAEvB",
-    "sources": [
-        "title_location_header.scss"
-    ],
-    "names": [],
-    "file": "title_location_header.css"
-}

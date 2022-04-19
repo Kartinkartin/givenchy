@@ -1,0 +1,127 @@
+.subscribe-form {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 700px;
+  }
+}
+
+.subscribe-form__element {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 44px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form__element {
+    -ms-flex-preferred-size: content;
+        flex-basis: content;
+  }
+}
+
+.subscribe-form__email-input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  border: 0.5px solid #fff;
+  min-height: 44px;
+  background-color: #0A0A0A;
+  color: #666666;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form__email-input {
+    width: calc(100vw - 405px);
+    max-width: 592px;
+    min-height: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .subscribe-form__email-input {
+    width: 592px;
+  }
+}
+
+.subscribe-form__accept {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  border: none;
+}
+
+.subscribe-form__accept-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.subscribe-form__accept-text {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  width: calc(100% - 32px);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.subscribe-form__accept-text::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/Rectangle.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding-right: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-form__accept-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.subscribe-form__accept-checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.subscribe-form__accept-checkbox:checked + .subscribe-form__accept-text:before {
+  background-image: url(../images/icon_check.svg);
+}
+/*# sourceMappingURL=subscribe-form.css.map */

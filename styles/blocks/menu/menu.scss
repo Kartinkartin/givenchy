@@ -1,0 +1,47 @@
+@import "../../variables";
+.menu {
+    margin: 0;
+    padding-top: $menuSpace;
+    padding-bottom: $menuSpace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__button {
+        width: $minMenuButton;
+        height: $minMenuButton;
+        border: none;
+        box-sizing: border-box;
+        padding: 0;
+        background-color: $headerBack;
+        background-image: url(../images/menu-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    
+        @media screen and (min-width: 768px) {
+            width: $minMenuButton*2;
+            height: $minMenuButton*2;
+            background-size: contain;
+        }
+    }
+
+    &__text {
+        margin: 0;
+        padding-left: $menuSpace;
+        font-weight: $fontbold;
+        font-size: $actionSize;
+        line-height: $actionLine;
+        text-transform: uppercase;
+    
+        @media screen and (min-width: 768px) {
+            font-size: $actionSize+2px;
+            line-height: $actionLine+4px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-top: $menuSpace*1.25;
+        padding-bottom: $menuSpace*1.25;
+    }
+}

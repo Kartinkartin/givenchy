@@ -1,0 +1,64 @@
+.button {
+  min-height: 44px;
+  width: 100%;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -webkit-transition: background-color 1s linear, color 1s linear;
+  transition: background-color 1s linear, color 1s linear;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    min-height: 48px;
+    width: 350px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.button_location_header {
+  background-color: #0A0A0A;
+  color: #fff;
+  max-width: 313px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  margin-top: 32px;
+}
+
+.button_location_header:hover {
+  background-color: #fff;
+  color: #0A0A0A;
+}
+
+@media screen and (min-width: 768px) {
+  .button_location_header {
+    max-width: 350px;
+  }
+}
+
+.button_location_footer {
+  background-color: #fff;
+  color: #0A0A0A;
+  border: solid 0.5px #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.button_location_footer:hover {
+  background-color: #0A0A0A;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .button_location_footer {
+    width: 108px;
+  }
+}
+/*# sourceMappingURL=button.css.map */

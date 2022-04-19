@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,gCAAgC,CAAC;EAC7B,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,QAAQ,EAAE,MAAM;EAChB,IAAI,EAAE,aAAa;CACtB;;AAED,AAAA,gCAAgC,AAAA,QAAQ,GAAG,4BAA4B,CAAC;EACpE,gBAAgB,EAAE,6BAA6B;CACjD",
-    "sources": [
-        "subscribe-form__accept-checkbox.scss"
-    ],
-    "names": [],
-    "file": "subscribe-form__accept-checkbox.css"
-}

@@ -2,6 +2,7 @@ const buttonMenu = document.querySelector('.menu__button');
 const popupMenu = document.querySelector('.popup');
 const buttonClosePopup = document.querySelector('.button-close');
 const linkContainerPopup = document.querySelector('.popup__links');
+const toSubscribeButton = document.querySelector('.button_location_header');
 const imageArray = document.querySelectorAll('.photos__card');
 
 function closePopup() {
@@ -29,5 +30,9 @@ buttonMenu.addEventListener('click', function () {
 });
 buttonClosePopup.addEventListener('click', closePopup);
 linkContainerPopup.addEventListener('click', closePopup);
+
+toSubscribeButton.addEventListener('click', function() {
+    document.location.href = '#subscribe-form';
+})
 
 setInterval(Change3GridPictures, 1000);

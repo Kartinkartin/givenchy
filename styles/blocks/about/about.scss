@@ -1,0 +1,124 @@
+@import "../../variables";
+@import "../../mixins";
+
+.about {
+    margin: 0;
+    padding-left: $minSpace;
+    padding-right: $minSpace;
+    padding-top: $minSpace*2;
+    @media screen and (min-width: 768px) {
+        padding-top: $minSpace*3;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr 1fr;
+        row-gap: 70px;
+        column-gap: 0px;
+    }
+    @media screen and (min-width: 1440px) {
+        padding-top: $minSpace*4;
+    }
+
+    &__title {
+        @media screen and (min-width: 768px){
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+    }
+
+    &__top-description {
+        @media screen and (min-width: 768px) {
+            grid-column: 3/5;
+            grid-row: 1;
+            padding-top: 0px;
+        }
+    }
+
+    &__quote {
+        margin: 0;
+        padding-top: $minSpace - 4px;
+        padding-bottom: $minSpace;
+        @media screen and (min-width: 768px) {
+            padding-top: 0;
+        }
+
+    }
+
+    &__author {
+        margin: 0;
+        font-style: normal;
+    }
+
+    &__hight-row-quote-container {
+        @include quote-container;
+        @media screen and (min-width: 768px) {
+            grid-row: 2;
+        }
+
+    }
+
+    &__next-description {
+        @media screen and (min-width: 768px) {
+            grid-column: 3/5;
+            grid-row: 3;
+            padding-top: 0px;
+        }
+        @media screen and (min-width: 1440px) {
+            align-self: center;
+            padding-bottom: 85px;
+        }
+    }
+
+    &__bottom-row-quote-container {
+        @include quote-container;
+        @media screen and (min-width: 768px){
+            grid-row: 4; 
+        }
+    }
+
+    &__hight-row-image {
+        @include grid-image;
+        @include right-grid-image;
+        @media screen and (min-width: 768px) { 
+            grid-column: 2/4;
+            grid-row: 2;
+            padding-top: 50px;
+        }
+        @media screen and (min-width: 1440px) {
+            padding-left: 61px;
+            padding-top: 10px;
+        }
+    }
+
+    &__middle-row-image {
+        @include grid-image;
+        @include right-grid-image;
+        @media screen and (min-width: 768px) { 
+            grid-column: 1/3;
+            grid-row: 3;
+            width: calc(100% - 60px);
+            padding-top: 38px;
+        }
+        @media screen and (min-width: 1440px) {
+            padding-top: $minSpace;
+            width: calc(100% - 80px);
+        }
+    }
+
+    &__bottom-row-image {
+        @include grid-image;
+        @include right-grid-image;
+        @media screen and (min-width: 768px) { 
+            grid-column: 2/5;
+            grid-row: 4;
+            padding-top: 16px;
+        }
+        @media screen and (min-width: 1440px) {
+            width: 94%;
+            padding-left: 60px;
+        }
+    }
+
+    &__image {
+        @include grid-image;
+    }
+    
+}
